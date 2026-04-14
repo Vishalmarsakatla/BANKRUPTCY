@@ -9,8 +9,7 @@ import pickle
 from sklearn.model_selection import GridSearchCV
 
 # Load the Model
-model = joblib.load(r"C:\Users\samee\DS_course\Bankruptcy_Classification\bankruptcy_model.pkl")
-
+model = joblib.load(r"Bankruptcy_model.pkl")
 # Must be the first Streamlit command 
 st.set_page_config(page_title = "BANKRUPTCY PREVENTION", layout = 'wide')
 
