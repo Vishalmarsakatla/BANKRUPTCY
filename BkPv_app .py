@@ -52,7 +52,7 @@ st.sidebar.title( "📋 Project Info")
 st.sidebar.info("""
 **Team:** Group 1
 
-**Model:** KNN 
+**Model:** RANDOM FOREST 
 """)
 
 choice = st.sidebar.radio("Navigation", ["Individual Prediction", "Bulk Prediction", "VIEW HISTORY"])
